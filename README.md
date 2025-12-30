@@ -85,6 +85,17 @@ India_Road_Accident_Project/
 
 ---
 
+## Tools & Libraries
+-  Python
+-  Pandas
+-  NumPy
+-  Matplotlib
+-  Seaborn
+-  scikit-learn
+-  Jupyter Notebook
+  
+  ---
+
 ## **Key Achievements**
 - Cleaned and structured 3,000+ Indian road accident records  
 - Engineered temporal, severity, and risk features  
@@ -98,4 +109,5 @@ India_Road_Accident_Project/
 - Add geospatial analysis (Folium maps for accident hotspots)  
 - Include vehicle type, license status, and alcohol involvement as model features  
 - Predict accident count by region or hour  
+
 
