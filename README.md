@@ -1,6 +1,6 @@
 # India Road Accident Analysis Project
 
-**Objective:**  
+## **Objective:**  
 Analyze 3,000+ Indian road accident records to uncover actionable safety insights and predict accident severity using ML.
 
 ---
@@ -13,22 +13,28 @@ Analyze 3,000+ Indian road accident records to uncover actionable safety insight
 ---
 
 ## Project Structure
-
-India_Road_Accidents_Project/
+```bash
+India_Road_Accident_Project/
+├── data/
+│   ├── india_road_accidents.csv    # Original raw dataset
+│   ├── cleaned_accidents.csv       # Dataset after basic cleaning
+│   └── final_accidents_ml.csv      # Feature-engineered data for ML
 │
-├─ data/
-│ ├─ raw_accidents.csv # Original dataset
-│ └─ final_accidents_ml.csv # Cleaned & feature-engineered dataset
+├── notebooks/
+│   ├── 01_load_data.ipynb          # Data loading & initial inspection
+│   ├── 02_data_cleaning.ipynb      # Handling nulls, types, and formatting
+│   ├── 03_eda.ipynb                # Exploratory Data Analysis & statistics
+│   ├── 04_ml_model.ipynb           # Training & evaluating ML models
+│   └── 05_visualizations.ipynb     # Script to generate & save final plots
 │
-├─ notebooks/
-│ ├─ 01_load_data.ipynb # Load dataset, inspect data
-│ ├─ 02_data_cleaning.ipynb # Handle missing values and fix strings
-│ ├─ 03_eda.ipynb # Exploratory data analysis & visualizations
-│ ├─ 04_ml_model.ipynb # Train Logistic Regression & Random Forest, evaluate
-│ └─ 05_visualizations.ipynb # Save plots to plots/ folder for README
-│
-├─ plots/ # Generated visualizations
-
+└── plots/                          # Saved visualizations for reporting
+    ├── accidents_by_state.png      # Regional distribution of accidents
+    ├── confusion_matrix.png        # ML model performance metric
+    ├── day_vs_night.png            # Analysis of time-based trends
+    ├── gender_vs_severity.png      # Demographics vs outcome severity
+    └── speed_vs_severity.png       # Correlation between speed and impact
+```
+    
 ## **Project Workflow**
 
 ### 1. Data Loading
@@ -51,20 +57,12 @@ India_Road_Accidents_Project/
 
 ## **Visualizations**
 
-### **Gender vs Severity**
-![Gender vs Severity](plots/gender_vs_severity.png)
+-Gender vs Severity
+-Speed Limit vs Accident Severity
+-Number of Accidents by State
+-Day vs Night Accident Count
+-Random Forest Confusion Matrix
 
-### **Speed Limit vs Accident Severity**
-![Speed vs Severity](plots/speed_vs_severity.png)
-
-### **Number of Accidents by State**
-![Accidents by State](plots/accidents_by_state.png)
-
-### **Day vs Night Accident Count**
-![Day vs Night](plots/day_vs_night.png)
-
-### **Random Forest Confusion Matrix**
-![Confusion Matrix](plots/confusion_matrix.png)
 
 ---
 
