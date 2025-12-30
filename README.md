@@ -57,11 +57,11 @@ India_Road_Accident_Project/
 
 ## **Visualizations**
 
--Gender vs Severity
--Speed Limit vs Accident Severity
--Number of Accidents by State
--Day vs Night Accident Count
--Random Forest Confusion Matrix
+- Gender vs Severity
+- Speed Limit vs Accident Severity
+- Number of Accidents by State
+- Day vs Night Accident Count
+- Random Forest Confusion Matrix
 
 
 ---
@@ -98,3 +98,4 @@ India_Road_Accident_Project/
 - Add geospatial analysis (Folium maps for accident hotspots)  
 - Include vehicle type, license status, and alcohol involvement as model features  
 - Predict accident count by region or hour  
+
