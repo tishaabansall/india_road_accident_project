@@ -5,7 +5,7 @@ The project combines **EDA, feature engineering, and ML modeling** to derive act
 
 ---
 
-## 📌 Objective
+##  Objective
 
 - Identify high-risk patterns in Indian road accidents  
 - Analyze how **time, speed, gender, and demographics** influence accident severity  
@@ -13,7 +13,7 @@ The project combines **EDA, feature engineering, and ML modeling** to derive act
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 - **Source:** Ministry of Road Transport & Highways (MoRTH), India  
 - **Time Period:** 2018–2023  
@@ -32,6 +32,7 @@ The project combines **EDA, feature engineering, and ML modeling** to derive act
 ---
 
 ## Project Structure
+```text
 
 India_Road_Accident_Project/
 │
@@ -53,7 +54,7 @@ India_Road_Accident_Project/
     ├── day_vs_night.png            # Analysis of time-based trends
     ├── gender_vs_severity.png      # Demographics vs outcome severity
     └── speed_vs_severity.png       # Correlation between speed and impact
-
+```
 
 ## **Project Workflow**
 
@@ -134,3 +135,4 @@ _All plots are saved in the `plots/` directory for reporting._
 - Jupyter Notebook  
 
 ---
+
